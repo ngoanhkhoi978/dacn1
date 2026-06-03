@@ -1,0 +1,16 @@
+# Ignore large/generated data and model output
+# Data folder contains JSON shards and fixed files
+/data/
+
+# Trained NER model output
+ner-pii-vi/
+
+# Ignore top-level data.json
+/data.json
+
+# Optional: virtual envs (uncomment if you use them)
+#.venv/
+#venv/
+__pycache__/
+.venv/
+
